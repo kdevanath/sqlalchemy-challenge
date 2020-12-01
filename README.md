@@ -21,8 +21,22 @@ A query to find the most active stations.
 
 List the stations and observation counts in descending order.
 
-Which station has the highest number of observations?
+Find the  station that has the highest number of observations
 
 query to retrieve the last 12 months of temperature observation data (TOBS).
 
 Plot the results as a histogram with bins=12.
+
+# Flask App
+
+A Flask API based on the queries .
+
+List all routes that are available.
+
+/api/v1.0/precipitation
+/api/v1.0/stations
+/api/v1.0/<start> and /api/v1.0/<start>/<end>
+
+Query the station and measurement tables in the database. Convert the result of these
+queries into JSON and display.  
+
